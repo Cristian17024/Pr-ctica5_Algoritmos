@@ -41,7 +41,7 @@ public class VideoJuegos {
                         lista.add(new VideoJuego(titulo, rating, reviews, ranking, genero));
 
                     } catch (NumberFormatException e) {
-                        System.out.println("⚠️ Error de formato en fila " + numeroFila + ": " + e.getMessage());
+                        System.out.println(" Error de formato en fila " + numeroFila + ": " + e.getMessage());
                     }
                 }
                 numeroFila++;
